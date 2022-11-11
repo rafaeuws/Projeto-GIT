@@ -40,7 +40,7 @@ def operacao():
         print("Escolha o segundo numero número:")
         op2 = float(input())
         print("----------------")
-        res = op1 + op2
+        res = op1 - op2
         print("O resultado da subtração de {} - {} é igual à: {}".format(op1,op2,res))
         print("\n")
         print("Deseja fazer outra operação? (Y/N) :")
@@ -60,7 +60,7 @@ def operacao():
         print("Escolha o segundo numero número:")
         op2 = float(input())
         print("----------------")
-        res = op1 + op2
+        res = op1 * op2
         print("O resultado da multiplicação de {} x {} é igual à: {}".format(op1,op2,res))
         print("\n")
         print("Deseja fazer outra operação? (Y/N) :")
@@ -80,7 +80,7 @@ def operacao():
         print("Escolha o segundo numero número:")
         op2 = float(input())
         print("----------------")
-        res = op1 + op2
+        res = op1 / op2
         print("O resultado da divisão de {} / {} é igual à: {}".format(op1,op2,res))
         print("\n")
         print("Deseja fazer outra operação? (Y/N) :")
@@ -100,7 +100,7 @@ def operacao():
         print("Escolha o segundo numero número:")
         op2 = float(input())
         print("----------------")
-        res = op1 + op2
+        res = op1 ** op2
         print("O resultado da exponiação de {} elevado à {} é igual à: {}".format(op1,op2,res))
         print("\n")
         print("Deseja fazer outra operação? (Y/N) :")
