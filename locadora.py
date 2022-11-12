@@ -44,6 +44,8 @@ while True:
         if conf == 0:
             print("Parabéns, você alugou o {} por {} dias.".format(carros[cod][0], dias))
             alugados.append(carros.pop(cod))
+        else:
+            pass
     elif op == 2:
         if len(alugados) == 0:
             print("Não há carros para devolver")
